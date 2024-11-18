@@ -1,0 +1,19 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "main": "httpTrigger1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@azure/functions": "^4.6.0",
+    "@azure/identity": "^4.5.0",
+    "@azure/keyvault-secrets": "^4.9.0",
+    "@sendgrid/mail": "^8.1.4",
+    "dotenv": "^16.4.5"
+  }
+}
